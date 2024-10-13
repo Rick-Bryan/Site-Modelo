@@ -2082,6 +2082,28 @@ p.terms-txt a,
 /*  HERO-1
 /*------------------------------------------*/
 /* inicio dos codigos que usei */
+.section1-salesPlus{
+  background: #000F1E url(../images/bg1-salesPlus.webp) center center no-repeat !important;
+  background-size: cover !important;
+  padding-top: 160px;
+
+}
+.section5-salesPlus{
+  background: #000F1E url(../images/bg-section5-salesPlus.webp) center center no-repeat !important;
+  background-size: cover !important;
+}
+.section7-salesPlus{
+  background: #000F1E url(../images/bg-section7-salesPlus.webp) center center no-repeat !important;
+  background-size: cover !important;
+}
+.tit-2{
+    color: transparent !important;
+    background: #0061C7;
+    -webkit-background-clip: text;
+    font-size: 32px;
+    line-height: 1.1;
+
+}
 .section1-supplyPlus{
   background: #000F1E url(../images/BGsupplyplus.webp) center center no-repeat !important;
   background-size: cover !important;
@@ -2155,6 +2177,11 @@ p.terms-txt a,
   font-size: 30px;
   font-weight: 450;
   color: white;
+}
+.tit-sales {
+  font-size: 2.0rem !important;
+  font-weight: 600;
+  color: #FFF !important;
 }
 .tit-dep {
   padding-bottom: 2px;
