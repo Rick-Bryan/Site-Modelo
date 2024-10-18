@@ -970,7 +970,7 @@
   .header-socials a { line-height: 90px!important; margin-left: 25px; }
   .header-socials.ico-20 [class*="flaticon-"]:before, .header-socials.ico-20 [class*="flaticon-"]:after { font-size: 1.6rem; } 
 
-  .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { background-color: #eee; border-color: #eee; color: #666; }
+  .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { color: #666; }
   .wsmobileheader .smllogo { display: block; margin-top: 19px; padding-left: 22px; }
   .smllogo img { width: auto; max-width: inherit; max-height: 40px; }
 
@@ -1698,7 +1698,7 @@
   .header-socials a { line-height: 90px!important; margin-left: 25px; }
   .header-socials.ico-20 [class*="flaticon-"]:before, .header-socials.ico-20 [class*="flaticon-"]:after { font-size: 1.6rem; } 
 
-  .wsmenu > .wsmenu-list > li a.btn.btn-tra-white { background-color: #eee; border-color: #eee; color: #666; }
+ 
   .wsmobileheader .smllogo { display: block; margin-top: 19px; padding-left: 22px; }
   .smllogo img { width: auto; max-width: inherit; max-height: 40px; }
 
@@ -3828,8 +3828,8 @@
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
 
-  .wsmenu > .wsmenu-list { width: 290px; margin-right: -290px; }
-  .wsactive .wsmobileheader { margin-right: 290px; }
+  
+  
   .overlapblackbg { width: calc(100% - 290px); }
 
   .wsanimated-arrow { padding: 14px 30px 14px 0px; margin: 25px 18px 0 0; }

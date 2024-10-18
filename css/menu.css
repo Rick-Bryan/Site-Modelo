@@ -103,7 +103,7 @@
 /* Navigation Menu */
 .wsmenu {
   padding: 0;
-  float: right;
+  float: left;
   display: block;
 }
 
@@ -113,6 +113,7 @@
   width: 100%;
   display: block;
   padding: 0;
+  margin-left:100px
 }
 
 .wsmenu > .wsmenu-list > li {
@@ -337,13 +338,23 @@
   margin: 0px;
   padding: 12px;
   min-width: 200px;
-  background-color: #fff;
-  border: solid 1px #eee;
+  background-color: #1F2024;
+  border: solid 1px #292828;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
 
+
+.menu-title-sub {
+ 
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  letter-spacing: 0.6px !important;
+  color: #FFF;
+}
 .wsmenu > .wsmenu-list > li > ul.sub-menu.last-sub-menu {
   min-width: 160px;
 }
@@ -721,12 +732,9 @@
 
 .wsmobileheader {
   display: none;
+  background-color: white;
 }
 
-.overlapblackbg {
-  opacity: 0;
-  visibility: hidden;
-}
 
 .wsmenu .wsmenu-click {
   display: none;
@@ -791,8 +799,7 @@ body.wsactive {
 .wsmenu > .wsmenu-list {
   height: auto;
   min-height: 100%;
-  width: 350px;
-  background: #fff;
+  background: #1F2024;
   padding-bottom: 0;
   margin-right: -350px;
   display: block;
@@ -807,9 +814,8 @@ body.wsactive {
 .wsmenu > .wsmenu-list > li {
   width: 100%;
   display: block;
-  float: none;
   border-right: none;
-  background-color: transparent;
+  background-color: #1F2024;
   position: relative;
   white-space: inherit;
   clear: right;
@@ -1126,9 +1132,6 @@ body.wsactive {
 }
 
 .wsactive .wsmobileheader {
-  margin-right: 240px;
-  margin-right: 300px;
-  margin-right: 350px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -1256,20 +1259,9 @@ body.wsactive {
 
 /* ================== Mobile Overlay/Drawer CSS ================== */
 
-.overlapblackbg {
-  left: 0;
-  width: calc(100% - 350px);
-  height: 100vh;
-  min-height: 100%;
-  position: fixed;
-  top: 0;
-  opacity: 0;
-  visibility: hidden;
-  background-color: rgba(0, 0, 0, 0.45);
-  cursor: pointer;
-}
 
-.wsactive .wsmenu .overlapblackbg {
+
+.wsactive .wsmenu  {
   opacity: 1;
   visibility: visible;
   -webkit-transition: opacity 1.5s ease-in-out;
