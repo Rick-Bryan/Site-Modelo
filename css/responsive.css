@@ -2934,8 +2934,8 @@
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
 
-  .wsmenu > .wsmenu-list { width: 345px; margin-right: -345px; }
-  .wsactive .wsmobileheader { margin-right: 345px; }
+ 
+  
   .overlapblackbg { width: calc(100% - 345px); }
 
   .wsanimated-arrow { padding: 13px 30px 14px 0px; margin: 25px 18px 0 0; }
@@ -4735,7 +4735,7 @@
   /*   NAVIGATION MENU    
   /*------------------------------------------*/
 
-  .wsmenu > .wsmenu-list { width: 250px; margin-right: -250px; }
+ 
   .wsactive .wsmobileheader { margin-right: 250px; }
   .overlapblackbg { width: calc(100% - 250px); }
 

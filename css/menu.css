@@ -86,6 +86,7 @@
   max-width: 1140px;
   padding: 0 15px;
   position: relative;
+
 }
 
 /* Header Logo */
@@ -105,6 +106,7 @@
   padding: 0;
   float: left;
   display: block;
+  transition: 0.5s;
 }
 
 .wsmenu > .wsmenu-list {
@@ -785,7 +787,7 @@ body.wsactive {
 }
 
 .wsmenu {
-  width: 100%;
+  width: 0px;
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   right: 0;
   overflow-y: hidden;
@@ -794,6 +796,7 @@ body.wsactive {
   visibility: hidden;
   position: fixed;
   margin: 0px;
+  height: 0px;
 }
 
 .wsmenu > .wsmenu-list {
@@ -1269,6 +1272,7 @@ body.wsactive {
   -ms-transition: opacity 1.5s ease-in-out;
   -o-transition: opacity 1.5s ease-in-out;
   z-index: 8888!important;
+  
 }
 
 .wsmenucontainer {
@@ -1280,7 +1284,6 @@ body.wsactive {
 }
 
 .wsactive .wsmenucontainer {
-  margin-right: 300px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -1294,6 +1297,8 @@ body.wsactive {
   visibility: visible;
   z-index: 1000;
   top: 0;
+  width: 100%;
+  transition: 0.5s;
 }
 
 .wsactive .wsmenu > .wsmenu-list {
