@@ -1711,21 +1711,7 @@ p.terms-txt a,
   box-shadow: 0 2px 3px rgba(96, 96, 96, .1);
 }
 
-.wsmenu > .wsmenu-list > li > ul.sub-menu:before {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  top: -8px;
-  left: 40px;
-  height: .9375rem;
-  width: .9375rem;
-  border-top: solid 1px #eee;
-  border-left: solid 1px #eee;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  z-index: -2;
-}
+
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a {
   color: #2c3e50;
@@ -2298,18 +2284,23 @@ p.terms-txt a,
 .floating-image1 {
   animation: floatAnimation 1s infinite alternate, fadeAnimation 5s infinite alternate;
   animation-delay: 1s;
+  width: 100%;
+  
 }
 .floating-image2 {
   animation: floatAnimation 1s infinite alternate, fadeAnimation 5s infinite alternate;
   animation-delay: 3s;
+  width: 100%;
 }
 .floating-image3 {
   animation: floatAnimation 1s infinite alternate, fadeAnimation 5s infinite alternate;
   animation-delay: 6s;
+  width: 100%;
 }
 .floating-image4 {
   animation: floatAnimation 1s infinite alternate, fadeAnimation 5s infinite alternate;
   animation-delay: 9s;
+  width: 100%;
 }
 @media (max-width: 601px) {
   .tit-cta {
@@ -2335,6 +2326,18 @@ p.terms-txt a,
   margin-top: 0px;
   -webkit-background-clip: text;
 }
+.box-test{
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.section1-home{
+    padding-top: 140px;
+    background: #000F1E url(../images/bg-site1.webp) center center no-repeat !important;
+    background-size: cover !important;
+}
+
 @media (max-width: 1200px) {
   .texti-1 {
       position: relative;
@@ -2352,7 +2355,7 @@ p.terms-txt a,
 .texti-1 {
   position: relative;
   float: left !important;
-  max-width: 480px !important;
+  width: 480px !important;
   margin-top: 60px;
   margin-left: 0px;
 }
@@ -2372,7 +2375,7 @@ p.terms-txt a,
 .texti-2 {
   position: relative;
   float: right !important;
-  max-width: 400px !important;
+  width: 400px !important;
   margin-top: -10px;
 }
 @media (max-width: 1200px) {
@@ -2393,7 +2396,7 @@ p.terms-txt a,
 .texti-3 {
   position: relative;
   float: right !important;
-  max-width: 450px !important;
+  width: 450px !important;
   margin-top: -10px;
   margin-right: 180px;
   z-index: 2;
@@ -2418,7 +2421,7 @@ p.terms-txt a,
 .texti-4 {
   position: relative;
   float: left !important;
-  max-width: 550px !important;
+  width: 550px !important;
   margin-top: 40px;
   margin-left: 200px;
   z-index: 1;
@@ -2434,6 +2437,13 @@ p.terms-txt a,
   .texti-all {
       display: block !important;
       margin-top: 30px;
+      
+  }
+}
+@media (max-width: 1000px) {
+  .box-test{
+      padding: 20px;
+      
   }
 }
 .bg-container-section4{
@@ -2571,7 +2581,7 @@ p.terms-txt a,
   text-align: center;
   font-size: 26px;
   margin-top: 30px;
-  text-decoration: line-through;
+  text-decoration: none;
 }
 .price-gratis {
   width: 100%;
@@ -2822,7 +2832,7 @@ p.terms-txt a,
   background: rgb(0, 171, 217);
   background: linear-gradient(90deg, rgba(0, 171, 217, 1) 0%, rgba(0, 171, 217, 1) 20%, rgba(0, 156, 211, 1) 42%, rgba(0, 151, 208, 1) 65%, rgba(0, 145, 206, 1) 93%);
   margin: 20px 0 50px;
-  padding: 10px 50px;
+  padding: 10px 25px;
   font-size: 14px;
   font-weight: bold;
   border-radius: 20px;
@@ -3343,13 +3353,7 @@ html:not(.no-js) [data-aos=zoom-in] {
 [data-aos].aos-animate {
   pointer-events: auto;
 }
-.texti-1 {
-  position: relative;
-  float: left !important;
-  max-width: 480px !important;
-  margin-top: 60px;
-  margin-left: 0px;
-}
+
 [data-aos] {
   pointer-events: none;
 }
